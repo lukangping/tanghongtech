@@ -13,16 +13,8 @@ public class HelloWorldServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-//        resp.getOutputStream().write("Hello World.".getBytes());
-//        resp.sendRedirect("index.jsp");
 
-//        String nextJSP = "index.jsp";
-//        RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(nextJSP);
-//        dispatcher.forward(req, resp);
 
-        req.setAttribute("key1", "value1");
-        RequestDispatcher requestDispatcher = req.getRequestDispatcher("/index.jsp");
-        requestDispatcher.forward(req, resp);
 
     }
 }

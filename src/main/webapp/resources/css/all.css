@@ -1,0 +1,158 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+#header {
+    /*height: 428px;*/
+    border: 0px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background: url("../images/bg.jpg") ;
+}
+
+#logo {
+    height: 80px;
+    width: 980px;
+    margin: 0px auto;
+    border: 0px;
+}
+
+#logo img {
+    width: 200px;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+#we {
+    height: 320px;
+    border: 0px;
+    background: url("../images/we.jpg") center no-repeat ;
+}
+
+#line {
+    height: 15px;
+    border: 0px;
+    background-color: #cf2e48;
+}
+
+#slider {
+    height: 488px;
+    padding-left: 15px;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.slider_container {
+    width: 302px;
+    height: 500px;
+    float: left;
+    margin: 20px 0px 20px 16px;
+}
+
+.overlay {
+    position: relative;
+    top: -54px;
+    width: 288px;
+    height: 45px;
+    background-color: rgba(0,0,0,0.6);
+    padding: 5px 0px 0px 12px;
+}
+
+.overlay span{
+    color: white;
+    margin: 0px;
+    font-family: "TitilliumText22LRegular",Arial,sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.7;
+    margin: 0 0 .2em 0;
+}
+
+.overlay p {
+    font-size: 11px;
+    color: #e5e5e5;
+    margin: 0px;
+    font-family: Arial;
+}
+
+.context {
+    position: relative;
+    top: -22px;
+    background-color: #f7f7f7;
+    height: 160px;
+    width: 260px;
+    padding: 20px;
+}
+
+.context span {
+    color: #fba632;
+    font-family: "TitilliumText22LRegular",Arial,sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.22222222;
+    margin: 0 0 .2em 0;
+}
+
+.context p {
+    font-size: 12px;
+    line-height: 1.5;
+    font-family: Arial,sans-serif;
+    color: #555;
+}
+
+#builder {
+    height: 255px;
+    width: 960px;
+    padding-left: 15px;
+    margin: 0px auto;
+}
+
+#builder img {
+    height: 200px;
+    width: 100%;
+}
+
+#footer {
+    height: 140px;
+    width: 100%;
+    background: url("../images/bg.jpg") ;
+}
+
+#info {
+    margin: 0px auto;
+    height: 100px;
+    padding-left: 15px;
+    width: 960px;
+}
+
+#info ul{
+    padding: 20px 0px;
+    margin: 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.0980392);
+}
+
+#info li {
+    line-height: 1.8;
+    list-style: none;
+    font-family: Arial;
+    font-size: 15px;
+    color: #ccc;
+    margin: 0px;
+}
+
+#info p {
+    margin: 0px;
+}
+
+#copyright {
+    text-align: right;
+    font-size: 12px;
+    margin: 0px auto;
+    width: 960px;
+    font-family: Arial;
+    color: #ccc;
+}

@@ -4,12 +4,12 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_1.xsd">
 
     <servlet>
-        <servlet-name>HelloWorldServlet</servlet-name>
-        <servlet-class>com.tanghongtech.HelloWorldServlet</servlet-class>
+        <servlet-name>ForwardServlet</servlet-name>
+        <servlet-class>com.tanghongtech.ForwardServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>HelloWorldServlet</servlet-name>
+        <servlet-name>ForwardServlet</servlet-name>
         <url-pattern>/forward</url-pattern>
     </servlet-mapping>
 
@@ -22,4 +22,5 @@ xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns
         <servlet-name>RedirectServlet</servlet-name>
         <url-pattern>/redirect</url-pattern>
     </servlet-mapping>
+
 </web-app>
