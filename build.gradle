@@ -11,9 +11,9 @@ dependencies {
   providedCompile 'javax.servlet:javax.servlet-api:3.1.0'
 }
 
-task startServer {
+task startServer << {
     jettyRun.contextPath = ''
-    jettyRun.httpPort = 80
+    jettyRun.httpPort = 8090
     //jettyRun.daemon=true
     jettyRun.execute()
 }
